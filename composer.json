@@ -11,11 +11,15 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "*"
+
     },
     "autoload": {
         "psr-4": {
             "casejoke\\carrotrbac\\": ""
         }
-    }
+    },
+    "extra": {
+        "bootstrap": "casejoke\\carrotrbac\\Bootstrap"
+      }
+    
 }
