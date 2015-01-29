@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist casejoke/yii2-carrotrbac "*"
+php composer.phar require --prefer-dist casejoke/yii2-carrotrbac "dev-master"
 ```
 
 or add
 
 ```
-"casejoke/yii2-carrotrbac": "*"
+"casejoke/yii2-carrotrbac": "dev-master"
 ```
 
 to the require section of your `composer.json` file.
@@ -25,7 +25,3 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by  :
-
-```php
-<?= \casejoke\carrotrbac\AutoloadExample::widget(); ?>```
